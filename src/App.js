@@ -16,10 +16,12 @@
 //   )
 // }
 
-import Header from "./components/header/Header";
-import Footer from "./components/Footer/Footer";
-import UsersPage from "./pages/userPage/UserPage";
-import MainPage from "./pages/mainPage/MainPage";
+
+
+
+import Description from "./components/description/Description";
+import TodosPage from "./pages/todosPage/TodosPage";
+
 
 
 
@@ -27,10 +29,8 @@ import MainPage from "./pages/mainPage/MainPage";
 function App() {
   return (
       <>
-          <Header/>
-          <MainPage/>
-          <UsersPage/>
-          <Footer/>
+          <Description/>
+          <TodosPage/>
       </>
   )
 }

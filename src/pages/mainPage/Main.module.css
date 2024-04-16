@@ -1,0 +1,18 @@
+.DT1 {
+    font-family: -apple-system, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: #1C1678;
+}
+
+.DT2 {
+    font-family: -apple-system, sans-serif;
+    text-align: center;
+    font-size: xxx-large;
+    color: #7BC9FF;
+}
+
+.DT3 {
+    margin: 0 auto;
+    display: block;
+}
