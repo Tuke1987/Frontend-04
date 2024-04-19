@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import App from "../../App";
 
-function MainPage(User) {
+function ErrorPage({user}) {
     const [JJ, setJJ] = useState([<App/>])
     useEffect(() => {
 
@@ -10,9 +10,9 @@ function MainPage(User) {
 
     return (
         <div>
-            <h1>Добро пожаловать</h1>
+            <h1>Доступ закрыт</h1>
         </div>
     );
 }
 
-export default MainPage;
+export default ErrorPage;

@@ -1,38 +1,18 @@
-// function Header() {
-//   return (
-//       <h1>Header</h1>
-//   )
-// }
-//
-// function Title() {
-//   return (
-//       <h2>Brich</h2>
-//   )
-// }
-//
-// function Footer() {
-//   return (
-//       <h2>Footer</h2>
-//   )
-// }
+import MainPage from "./pages/mainPage/MainPage";
+import ErrorPage from "./pages/errorPage/ErrorPage";
+
+const name = prompt('Введите свое имя')
+const lastName = prompt('Введите свою фамилию')
 
 
-
-
-import Description from "./components/description/Description";
-import TodosPage from "./pages/todosPage/TodosPage";
-
-
-
-
-
-function App() {
-  return (
-      <>
-          <Description/>
-          <TodosPage/>
-      </>
-  )
+function App(promptJJ) {
+    const users = {
+        name: name,
+        lastName: lastName
+    }
+    console.log(users)
+    return name === 'john' && lastName === 'johns'
+        ? <MainPage/> : <ErrorPage/>
 }
 
-export default App;
+export default App
